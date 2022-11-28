@@ -19,3 +19,10 @@ pass: orangepi
 - Plug monitor and keyboard and log in
 - Connect to wifi AP: **sudo nmcli device wifi connect YOURSSID password YOURPASS**
 - Enjoy it!
+
+## After install
+Open **~/.bashrc** in text editor and uncomment line:
+**#force_color_prompt=yes**
+then add this to the and of file
+**export PATH="/sbin:$PATH"**
+save then execute **source ~/.bashrc**
