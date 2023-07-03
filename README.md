@@ -23,6 +23,6 @@ pass: orangepi
 ## After install
 Open **~/.bashrc** in text editor and uncomment line:
 **#force_color_prompt=yes**
-then add this to the and of file
+then add this to the end of file
 **export PATH="/sbin:$PATH"**
 save then execute **source ~/.bashrc**
