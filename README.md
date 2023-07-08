@@ -16,8 +16,10 @@ pass: orangepi
 
 ## Install
 - Burn image file to sd card (at least 16GB)
-- Plug monitor and keyboard and log in
+- If you have an usb-c Eth Port shh to **mangopi.lan**
+- or Plug monitor and keyboard and log in
 - Connect to wifi AP: **sudo nmcli device wifi connect YOURSSID password YOURPASS**
+- Extend rootfs with the script **extend_rootfs**
 - Enjoy it!
 
 ## After install
